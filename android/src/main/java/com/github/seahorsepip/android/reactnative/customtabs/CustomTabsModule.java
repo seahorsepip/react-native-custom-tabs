@@ -8,7 +8,7 @@ import android.provider.Browser;
 import android.support.customtabs.CustomTabsIntent;
 import android.text.TextUtils;
 
-import com.seahorsepip.android.customtabs.launcher.CustomTabsLauncher;
+import com.droibit.android.customtabs.launcher.CustomTabsLauncher;
 import com.facebook.react.bridge.JSApplicationIllegalArgumentException;
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;
@@ -152,7 +152,7 @@ public class CustomTabsModule extends ReactContextBaseJavaModule {
         }
         CustomTabsIntent customTabsIntent = builder.build();
 		customTabsIntent.intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-+       customTabsIntent.intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+		customTabsIntent.intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 
         // Add custom headers if present
         if (option.hasKey(KEY_HEADERS)) {
