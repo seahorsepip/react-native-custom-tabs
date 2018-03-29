@@ -3,6 +3,7 @@ package com.github.seahorsepip.android.reactnative.customtabs;
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Color;
+import android.content.Intent;
 import android.os.Bundle;
 import android.provider.Browser;
 import android.support.customtabs.CustomTabsIntent;
