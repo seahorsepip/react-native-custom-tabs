@@ -81,7 +81,7 @@ android {
     buildToolsVersion "25.0.1"
 
     defaultConfig {
-        applicationId "com.github.droibit.android.reactnative.customtabs.example"
+        applicationId "com.github.seahorsepip.android.reactnative.customtabs.example"
         minSdkVersion 16
         targetSdkVersion 23
         versionCode 1

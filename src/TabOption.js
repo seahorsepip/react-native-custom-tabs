@@ -64,7 +64,7 @@ export type TabOption = {
    * Sets the exit and start animations.
    *
    * Each property needs to be an Andrion animation resource ID,
-   * e.g. 'com.github.droibit.android.reactnative.customtabs.example:anim/slide_out_bottom'
+   * e.g. 'com.github.seahorsepip.android.reactnative.customtabs.example:anim/slide_out_bottom'
    *
    * @see ANIMATIONS_FADE
    * @see ANIMATIONS_SLIDE

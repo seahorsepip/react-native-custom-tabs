@@ -1,4 +1,4 @@
-package com.github.droibit.android.reactnative.customtabs.example;
+package com.github.seahorsepip.android.reactnative.customtabs.example;
 
 import android.app.Application;
 
@@ -7,7 +7,7 @@ import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
-import com.github.droibit.android.reactnative.customtabs.CustomTabsPackage;
+import com.github.seahorsepip.android.reactnative.customtabs.CustomTabsPackage;
 
 import java.util.Arrays;
 import java.util.List;

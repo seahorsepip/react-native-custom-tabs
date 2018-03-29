@@ -1,4 +1,4 @@
-package com.github.droibit.android.reactnative.customtabs;
+package com.github.seahorsepip.android.reactnative.customtabs;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;

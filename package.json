@@ -1,6 +1,6 @@
 {
-  "name": "react-native-custom-tabs",
-  "version": "0.1.7",
+  "name": "react-native-custom-tabs-fork",
+  "version": "0.1.8",
   "description": "Chrome Custom Tabs for React Native.",
   "keywords": [
     "react-native",
@@ -8,16 +8,16 @@
     "custom-tabs"
   ],
   "author": {
-    "name": "Shinya Kumagai",
-    "email": "roomful.rooms@gmail.com"
+    "name": "Thomas Gladdines",
+    "email": "seahorsepip@outlook.com"
   },
-  "homepage": "https://github.com/droibit/react-native-custom-tabs",
+  "homepage": "https://github.com/seahorsepip/react-native-custom-tabs",
   "bugs": {
-    "url": "https://github.com/droibit/react-native-custom-tabs/issues"
+    "url": "https://github.com/seahorsepip/react-native-custom-tabs/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/droibit/react-native-custom-tabs"
+    "url": "https://github.com/seahorsepip/react-native-custom-tabs"
   },
   "license": "Apache-2.0",
   "scripts": {

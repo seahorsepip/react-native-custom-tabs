@@ -15,7 +15,7 @@ android {
 dependencies {
     compile "com.facebook.react:react-native:+"  // From node_modules
     compile 'com.android.support:customtabs:25.0.1'
-    compile ('com.github.droibit.customtabslauncher:launcher:1.0.8') {
+    compile ('com.github.seahorsepip.customtabslauncher:launcher:1.0.8') {
         exclude module: 'customtabs'
     }
 

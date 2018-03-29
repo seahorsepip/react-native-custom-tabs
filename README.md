@@ -1,5 +1,10 @@
 # React Native Custom Tabs
-[![npm version](https://badge.fury.io/js/react-native-custom-tabs.svg)](https://badge.fury.io/js/react-native-custom-tabs) [![Software License](https://img.shields.io/badge/license-Apache%202.0-brightgreen.svg)](https://github.com/droibit/react-native-custom-tabs/blob/develop/LICENSE)
+
+## Fork
+
+This is a fork of react-native-custom-tabs for personal projects, all credits due to Shinya Kumagai for the original work.
+
+## About
 
 Chrome Custom Tabs for React Native. Custom Tabs is supported only Chrome for Android. For this reason, the interface is the same, but the behavior is following:
 
@@ -14,7 +19,7 @@ Customization and detailed behavior refer to the Usage.
 ## Installation
 
 ```
-npm install react-native-custom-tabs --save
+npm install react-native-custom-tabs-fork --save
 ```
 
 To link the native module automatically, it is recommended that you use the [rnpm](https://github.com/rnpm/rnpm).
@@ -39,7 +44,7 @@ allprojects {
 And, provide `CustomTabsPackage` in your Application class.
 
 ```java
-import com.github.droibit.android.reactnative.customtabs.CustomTabsPackage;
+import com.github.seahorsepip.android.reactnative.customtabs.CustomTabsPackage;
 
 @Override
 protected List<ReactPackage> getPackages() {
@@ -95,10 +100,10 @@ CustomTabs.openURL(url, {
   // For value, specify only full qualifier or only resource name.
   // In the case of the resource name, the module complements the application package in java side.
   animations: {
-    startEnter: 'com.github.droibit.android.reactnative.customtabs.example:anim/slide_in_bottom',
-    startExit: 'com.github.droibit.android.reactnative.customtabs.example:anim/slide_out_bottom',
-    endEnter: 'com.github.droibit.android.reactnative.customtabs.example:anim/slide_in_bottom',
-    endExit: 'com.github.droibit.android.reactnative.customtabs.example:anim/slide_out_bottom',
+    startEnter: 'com.github.seahorsepip.android.reactnative.customtabs.example:anim/slide_in_bottom',
+    startExit: 'com.github.seahorsepip.android.reactnative.customtabs.example:anim/slide_out_bottom',
+    endEnter: 'com.github.seahorsepip.android.reactnative.customtabs.example:anim/slide_in_bottom',
+    endExit: 'com.github.seahorsepip.android.reactnative.customtabs.example:anim/slide_out_bottom',
   },
   // or
   animations: ANIMATIONS_SLIDE, // or ANIMATIONS_FADE
@@ -116,7 +121,7 @@ The option to support:
 |enableUrlBarHiding|boolean|undefined|Enables the url bar to hide as the user scrolls down on the page.|
 |showPageTitle|boolean|undefined|Sets whether the title should be shown in the custom tab.|
 |enableDefaultShare|boolean|undefined|Whether to add a default shared items of the menu.|
-|animations|Object|undefined|Sets the exit and start animations. ANIMATIONS_FADE, ANIMATIONS_SLIDE or custom object with string properties `startEnter`, `startExit`, `endEnter` and `endExit` each defining an Android animation resource ID to use for the animations, such as `com.github.droibit.android.reactnative.customtabs:anim/slide_in_right`.|
+|animations|Object|undefined|Sets the exit and start animations. ANIMATIONS_FADE, ANIMATIONS_SLIDE or custom object with string properties `startEnter`, `startExit`, `endEnter` and `endExit` each defining an Android animation resource ID to use for the animations, such as `com.github.seahorsepip.android.reactnative.customtabs:anim/slide_in_right`.|
 |headers|Object|undefined|Sets any custom headers that should be used.|
 
 `undefined` property is the default behavior of the Custom Tabs.
@@ -126,7 +131,8 @@ Customize and default look & feel.
 
 ## License
 
-    Copyright (C) 2016 Shinya Kumagai
+    Copyright (C) 2018 Thomas Gladdines
+    Original work: Shinya Kumagai
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

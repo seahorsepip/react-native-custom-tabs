@@ -1,4 +1,4 @@
-package com.github.droibit.android.reactnative.customtabs.example;
+package com.github.seahorsepip.android.reactnative.customtabs.example;
 
 import com.facebook.react.ReactActivity;
 

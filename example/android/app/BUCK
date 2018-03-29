@@ -46,13 +46,13 @@ android_library(
 
 android_build_config(
   name = 'build_config',
-  package = 'com.github.droibit.android.reactnative.customtabs.example',
+  package = 'com.github.seahorsepip.android.reactnative.customtabs.example',
 )
 
 android_resource(
   name = 'res',
   res = 'src/main/res',
-  package = 'com.github.droibit.android.reactnative.customtabs.example',
+  package = 'com.github.seahorsepip.android.reactnative.customtabs.example',
 )
 
 android_binary(
